@@ -1,0 +1,7 @@
+DROP TABLE stdworkinghours;
+CREATE TABLE stdworkinghours (
+  PERIOD                              DATE NOT NULL PRIMARY KEY,
+  stdworkinghoursoffirstpartofamonth  INTEGER,
+  stdworkinghoursofsecondpartofamonth INTEGER,
+  stdworkinghoursofamonth             INTEGER
+);

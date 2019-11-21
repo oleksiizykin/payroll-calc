@@ -1,0 +1,7 @@
+DROP TABLE ACTUALWORKINGHOURSBYUSERS;
+CREATE TABLE ACTUALWORKINGHOURSBYUSERS (
+  USER_ID                          BIGSERIAL  NOT NULL,
+  PERIOD                           DATE NOT NULL,
+  workingHoursOfFirstPartOfAMonth  INTEGER,
+  workingHoursOfSecondPartOfAMonth INTEGER
+);
